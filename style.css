@@ -1,0 +1,881 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body
+{
+height: 100%;
+width: 100%;
+/* font-family: "Cooper Lt Bt"; */
+font-family: "Gilroy Light";
+
+}
+#main{
+    width: 100%;
+    height: 100vh;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    z-index: 99909;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    
+    
+    
+}
+#nav h2{
+   
+    /* font-family: "Cooper Bold Bt"; */
+     font-family: "Cooper Lt Bt";
+    font-weight: 400;
+    font-size: 30px;
+}
+#nav h2 span{
+    color: rgb(73, 230, 73);
+}
+#navp2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 70px;
+
+}
+#navp2{
+    font-size: 20px;
+}
+#navp2 button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    border: 1px solid black;
+    background-color: transparent;
+    overflow: hidden;
+    z-index: 9990;
+
+}
+#navp2 button h3{
+    z-index: 999;
+    font-size: 15px;
+    font-weight: 300;
+}
+#navp2 button>#fill{
+    width: 0px;
+    height: 40px;
+}
+#navp2 button:hover #fill{
+    width: 170px;
+    transition: 2s;
+ }
+#navp2 button img{
+    width: 40px;
+    z-index: 99;
+}
+
+#page1{
+    /* margin-top: 100px; */
+    padding-top: 10x;
+    width: 100%;
+    height: calc(100% - 100px);
+    /* background-color: lightblue; */
+    position: relative;
+    overflow: hidden;
+}
+#page1 #img1{
+    width: 350px;
+    height: 500px;
+    /* background-color: darkcyan; */
+    position: relative;
+    top: 8%;
+    left: 10%;
+    overflow: hidden;
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-75.jpg?w=1200&h=1731&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631017685&s=333b9abfa858cf7b8685e28a597dfa08);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+#page1 #img1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#page1 #img2{
+    width: 260px;
+    height: 230px;
+    /* background-color: saddlebrown; */
+    position: absolute;
+    top: 3%;
+    right: 25%;
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-23.jpg?w=1200&h=1008&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631003343&s=88354e145206a527c989b49f760a89d3);
+    background-position: center;
+    background-size: cover;
+}
+#page1 #img3{
+    width: 290px;
+    height: 260px;
+    /* background-color: darkgreen; */
+    position: absolute;
+    right: 9%;
+    bottom: 5%;
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-81.jpg?w=1200&h=1200&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631005177&s=21e4c0bb5ce83f57e69f404637d61265);
+    background-position: center;
+    background-size: cover;
+}
+
+#page1 #content{
+    z-index: 999;
+    width: 70%;
+    height: 70%;
+    padding-top:  100px;
+    
+    font-size: 50px ;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* display: flex;
+    flex-flow: column; */
+    text-align: center  ;
+    /* align-items: center;
+    justify-self: center     ; */
+   
+}
+#page1 #content h2{
+    font-family: "Cooper Lt Bt";
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#page1 #content h2::after{
+    content: "";
+    width: 320px;
+    height: 14px;
+    /* background-color: green; */
+    background-image: url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
+    position: absolute;
+    left: 36%;
+    top: 90%;
+    margin-top: 10px;
+}
+
+#page1 #content h5{
+    font-size: 20px;
+    font-weight: 900;
+    
+    align-items: center;
+    text-align: center ;
+   /* background-color: hotpink; */
+   gap: 50px;
+    
+    
+}
+#fill{
+    width: 0px;
+    height: 33.5px;
+    border-radius: 50px;
+    background-color: #00EB8F;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#page1 #content button{
+    /* display: flex; */
+    align-items: center;
+    gap: 10px;
+    padding: 0 30px;
+    font-size: 10px;
+    border-radius: 30px;
+    border: none;
+    border: 1px solid black;
+    background-color: transparent;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: 2s;
+
+
+}
+#page1 #content button:hover #fill{
+   width: 90px;
+   transition: 2s;
+}
+#page1 #content button img{
+    position: relative;
+    width: 30px;
+    z-index: 999;
+}
+
+#page1 #img1 img:hover{
+    scale: 1.3;
+    transition: 2s;
+  
+}
+#page2{
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+
+#page2 h5{
+    padding-top: 100px;
+    font-size: 20px;
+}
+#page2 h5::before{
+    content: " ";
+    width: 13px;
+    height: 13px;
+    background-color:#00EB8F;
+    border-radius: 50%;
+    left: 32%;
+    margin-top: 5px;
+    position: absolute;
+}
+#page2 h2{
+    padding-top: 30px;
+    font-family: "Cooper Lt Bt";
+    font-weight: 400 ;
+    font-size: 50px;
+}
+#page2 h2::after{
+    content: "";
+    width: 210px;
+    height: 70px;
+    /* background-color: green; */
+    background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+    position: absolute;
+    left: 42%;
+    margin-top: -5px;
+}
+#page2 h4{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2 h4 button{
+    display: flex;
+    align-items: center;
+    padding: 2px 20px;
+    border-radius: 50px;
+    border: none;
+    border: 1px solid white;
+    background-color: transparent;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+}
+#page2 h4 button img{
+    width: 30px;
+    z-index: 99;
+}
+#page2 h4 button #fill{
+    width: 0px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: #00EB8F;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#page2 h4 button:hover #fill{
+    width: 100px;
+    transition: 2s;
+}
+
+#page3{
+    width: 100%;
+    height: 120%;
+    /* background-color: rgba(251, 230, 251, 0.667); */
+    display: flex;
+    position: relative;
+}
+#page3 #left{
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    position: relative;
+}
+#page3 #right{
+    width: 50%;
+    height: 100%;
+    padding-left: 80px;
+    
+}
+#page3 #left #img1{
+    width: 25%;
+    height: 60%;
+    position: relative;
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-69.jpg?w=800&h=2518&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002290&s=33b3b284e2298e725e8837d662a3f3bd);
+    background-position: center;
+    background-size: cover;
+}
+#page3 #left #img2{
+    width: 25%;
+    height: 30%;
+    position:absolute;
+    
+    margin-top: 30px;
+background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-82.jpg?w=800&h=1200&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002337&s=2c36e03420200c6347fed613ee6ed7d3);  
+  background-position: center;
+    background-size: cover;
+    /* background-color: hotpink; */
+
+}
+#page3 #left #img3{
+    width: 52%;
+    height: 30%;
+    position: absolute;
+   left: 30%;
+   top: 0;
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-10.jpg?w=1200&h=750&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002227&s=e9befa27c3cb6b4742db66b7d49131e1);
+    background-position: center;
+    background-size: cover;
+
+}
+#page3 #left #img4{
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-2.jpg?w=1200&h=1353&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002176&s=5d4bc2c79348dc9d5effc2ed0a267366);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 67%;
+    height: 65%;
+    left: 30%;
+    top: 35%;
+
+}
+
+#page3 #right h2{
+    font-family: "Cooper Lt Bt";
+    margin-top: 33%;
+    font-weight: 400;
+    font-size: 60px;
+    margin-bottom: 30px;
+
+}
+
+
+/* #page3 #right h2::after{
+    content: "";
+    width: 240px;
+    height: 90px;
+    background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+    position: absolute;
+    left: 63%;
+    margin-top: -79px;
+} */
+#page3 #right h2::after{
+    content: "";
+    width: 210px;
+    height: 14px;
+    /* background-color: green; */
+    background-image: url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
+    position: absolute;
+    left: 64%;
+    top: 32%;
+    margin-top: 10px;
+}
+#page3 #right p{
+    width: 70%;
+    line-height: 30px;
+    font-weight: 600;
+    
+}
+#prof{
+    width: 390px;
+    padding-top: 30px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    /* background-color: #00EB8F; */
+    margin-left:-10px ;
+}
+ #prof #img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #DBEAFE;
+    overflow: hidden;
+
+}
+ #prof #img img{
+    width: 100%;
+    height: 100%;
+}
+#prof h3{
+    text-align: center;
+}
+#prof button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 2px 10px;
+    position: relative;
+    overflow: hidden;
+
+}
+#prof button h3{
+    font-weight: 300;
+    z-index: 99;
+}
+#prof button #fill{
+    width: 0px;
+    height: 35px;
+    border-radius: 1px;
+    top: 0;
+    left: 0;
+    background-color: #00eb91;
+    position: absolute;
+
+}
+#prof button:hover #fill{
+    width:  150px;
+    transition: 2s;
+}
+ #prof button img{
+    width: 30px;
+    z-index: 9;
+}
+
+
+
+#page4{
+    width: 100%;
+    height: 130%;
+    /* background-color: #00EB8F; */
+    
+
+}
+#page4 h2{
+    font-family: "Cooper Lt Bt";
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+#page4 h2::after{
+    content: " ";
+    width: 140px;
+    height: 80px;
+    position: absolute;
+    left: 34%;
+    margin-top: -70px;
+    background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+}
+
+#page4 #brand{
+    width: 80%;
+    height: 15%;
+    /* background-color: palevioletred; */
+    position: relative;
+    left: 50%;
+    transform: translate( -50%,0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+#page4 #brand img{
+    width: 120px;
+}
+#page4 #brand1 img{
+    width: 120px;
+}
+#page4 #brand1{
+    width: 80%;
+    height: 25%;
+    /* background-color: palevioletred; */
+    position: relative;
+    left: 50%;
+    transform: translate( -50%,0);
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin-top: 10px;
+
+}
+
+
+
+#page5{
+    width: 100%;
+    height: 70%;
+    /* background-color: saddlebrown; */
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 0px 70px;
+
+ 
+}
+#page5 #card{
+    width: 46%;
+    height: 80%;
+    overflow: hidden;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.32);
+    position: relative;
+
+    
+}
+#page5 #card #bgimg{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+    z-index: 0;
+}
+#page5 #card:hover #bgimg{
+    scale: 1.2;
+    transition: 2s;
+    
+
+}
+
+#page5 #card  h4{
+    
+    font-family: "Cooper Lt Bt";
+    font-weight: 300;
+    color: white;
+    margin-top: 70px;
+    
+    font-size: 50px;
+    z-index: 9999   ;
+
+}
+#page5 #card #overlay{
+    position: absolute;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.365);
+    z-index: 99;
+}
+#page5 #card #overlay #logo{
+    width: 100px;
+}
+#page5 #card #overlay h3{
+    color: white;
+    margin-top: 30px;
+    
+
+
+}
+#page5 #card #overlay h3 button{
+    margin-left: 20px;
+    padding: 5px 25px;
+    border-radius: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    
+}
+#page5 #card #overlay h3 button i{
+  color: white;
+    
+}
+#page5 #card #overlay #h4{
+    margin-top: 130px;
+}
+
+#profile{
+    width: 100%;
+    height: 120px;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#profile #pro{
+    width: 360px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+#profile #pro #img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #DBEAFE;
+    overflow: hidden;
+
+}
+#profile #pro #img img{
+    width: 100%;
+    height: 100%;
+}
+#profile #pro h3{
+    text-align: center;
+}
+#profile #pro button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 2px 10px;
+    position: relative;
+    overflow: hidden;
+
+}
+#profile #pro button h3{
+    z-index: 99;
+    font-weight: 300;
+}
+#profile #pro button #fill{
+    width: 0px;
+    height: 35px;
+    border-radius: 1px;
+    background-color: #00EB8F;
+    position: absolute;
+}
+#profile #pro button:hover #fill{
+    width: 150px;
+    transition: 2s;
+}
+#profile #pro button img{
+    width: 30px;
+    z-index: 999;
+}
+
+
+
+
+
+#page7{
+    width: 100%;
+    height: 130%;
+    background-color: black;
+    position: relative;
+    
+}
+#page7 #top{
+    width: 100%;
+    height: 26%;
+    background-color: #fff;
+}
+#page7 #box{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , 0);
+    top: 5%;
+    width: 70%;
+    height: 35%;
+        background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-10.jpg?w=1200&h=750&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002227&s=e9befa27c3cb6b4742db66b7d49131e1);
+    background-position: top;
+    background-size: cover;
+    color: white;
+}
+#page7 #box #overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.491);
+}
+
+#page7 #box #overlay>h3{
+    font-family: "Cooper Lt Bt";
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 100px;
+}
+ #page7 #box #profile{
+    width: 100%;
+    height: 120px;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+#page7 #box #profile #pro{
+    width: 450px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+#page7 #box #profile #pro #img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #DBEAFE;
+    overflow: hidden;
+
+}
+#page7 #box#profile #pro #img img{
+    width: 100%;
+    height: 100%;
+}
+#page7 #box#profile #pro h3{
+    text-align: center;
+}
+#page7 #box #profile #pro button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    padding: 10px 20px;
+    color: white;
+
+}
+#page7 #box #profile #pro button img{
+    width: 30px;
+    mix-blend-mode: difference;
+}
+
+
+#page7 #box2{
+    width: 85%;
+    height: 50%;
+    /* background-color: #00EB8F; */
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , 0);
+    bottom: 1%;
+
+}
+#page7 #box2 #up{
+    padding-top: 30px;
+    width: 100%;
+    height: 80%;
+   /* background-color: khaki; */
+   border-bottom: 1px solid rgb(148, 147, 147);
+   display: flex;
+}
+#page7 #box2 #up1{
+    width: 30%;
+
+    height:100% ;
+    /* background-color: #1f1d1d; */
+}
+
+#page7 #box2 .up{
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid rgb(6, 94, 12); */
+}
+#page7 #box2 #up1 h3{
+    font-family: "Cooper Lt Bt";
+    font-size: 50px;
+    font-weight: 400;
+}
+#page7 #box2 #up1 h4{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 40px;
+}
+#page7 #box2 #up1 h4 button{
+    margin-left: 20px;
+    padding: 0 20px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #fff;
+
+}
+#page7 #box2 #up1 h4 button img{
+    width: 40px;
+}
+
+#page7 #box2 .up h2{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgba(240, 248, 255, 0.865);
+}
+#page7 #box2 .up h2:nth-child(1){
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+    
+}
+#page7 #box2 #up4{
+    line-height: 30px;  
+}
+
+#page7 #box2 #up5{
+    height: 100%;
+    /* width:10% ; */
+    /* background-color: #00EB8F; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+}
+#page7 #box2 #up5 img{
+    width: 100px;
+}
+
+#page7 #box2 #down{
+    width: 100%;
+    height: 20%;
+    /* background-color: #00EB8F; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+#page7 #box2 #down h2{
+    font-family: "Cooper Lt Bt";
+    font-weight: 400;
+}
+#page7 #box2 #down h2 span{
+    color: #00EB8F;
+}
+#page7 #box2 #down #down2{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 100%;
+    font-size: 18px;
+    padding-top: 30px;
+    color: #ffffffd0;
+    font-weight: 100;
+
+   
+
+}
+#page7 #box2 #down #down2 a{
+    color: #00EB8F;
+    text-decoration: dotted;
+}
+
+
+
+#page7 #down h2::after{
+        content: " ";
+        width: 200px;
+        height: 75px;
+        position: absolute;
+        top: 18%;
+        left: 1%;
+        margin-left: -3%;
+        background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+    }
+    
